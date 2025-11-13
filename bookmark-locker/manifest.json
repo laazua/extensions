@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark Folder Locker",
+  "description": "Lock/unlock bookmark folders with a password (Chrome / Edge).",
+  "version": "1.3.0",
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Bookmark Locker",
+    "default_popup": "popup.html"
+  },
+  "icons": { "128": "icons/lock-48.png" }
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bookmark Locker</title>
+<style>
+body { font-family: Arial; width: 320px; padding:10px;}
+select,input,button{width:100%;margin:6px 0;padding:6px;}
+.buttons{display:flex;gap:8px;}
+#status{min-height:18px;margin-top:8px;}
+</style>
+</head>
+<body>
+<h3>Bookmark Folder Locker</h3>
+<select id="folders"></select>
+<input type="password" id="password" placeholder="Password">
+<div class="buttons">
+<button id="lockBtn">Lock</button>
+<button id="unlockBtn">Unlock</button>
+<button id="exportBtn">Export Locked</button>
+</div>
+<div id="status"></div>
+<script src="popup.js"></script>
+</body>
+</html>

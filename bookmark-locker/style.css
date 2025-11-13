@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; width: 320px; padding: 10px; }
+.container h2 { margin: 0 0 8px 0; font-size: 16px; }
+select, input { width: 100%; padding: 6px; margin: 6px 0; box-sizing: border-box; }
+.buttons { display:flex; gap:8px; }
+button { padding:6px 8px; }
+#status { margin-top:8px; min-height:18px; }
+.small { font-size:12px; margin-top:8px; display:flex; gap:6px; flex-wrap:wrap; }
